@@ -1,0 +1,10 @@
+prefix=/var/www/svetlana/data/pmmp/bin/php7
+exec_prefix=${prefix}
+includedir=/var/www/svetlana/data/pmmp/bin/php7/include
+libdir=/var/www/svetlana/data/pmmp/bin/php7/lib
+
+Name: libdeflate
+Description: Fast implementation of DEFLATE, zlib, and gzip
+Version: 1.10
+Libs: -L${libdir} -ldeflate
+Cflags: -I${includedir}
